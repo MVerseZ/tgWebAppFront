@@ -1,0 +1,156 @@
+/* Стили для компонента AboutBot */
+
+.about-bot-container {
+  padding: 16px;
+  border-radius: 12px;
+  margin: 16px 0;
+}
+
+.about-bot-container-light {
+  background-color: #ffffff;
+  border: 1px solid #e5e7eb;
+  color: #111827;
+}
+
+.about-bot-container-dark {
+  background-color: #1f2937;
+  border: 1px solid #374151;
+  color: #f9fafb;
+}
+
+.about-bot-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid;
+}
+
+.about-bot-header-light {
+  border-bottom-color: #e5e7eb;
+}
+
+.about-bot-header-dark {
+  border-bottom-color: #374151;
+}
+
+.about-bot-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.about-bot-title-light {
+  color: #111827;
+}
+
+.about-bot-title-dark {
+  color: #f9fafb;
+}
+
+.about-bot-back-button {
+  padding: 6px 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.about-bot-back-button-light {
+  background-color: #f3f4f6;
+  color: #111827;
+}
+
+.about-bot-back-button-dark {
+  background-color: #374151;
+  color: #f9fafb;
+}
+
+.about-bot-section {
+  margin-bottom: 16px;
+}
+
+.about-bot-section-title {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.about-bot-section-title-light {
+  color: #374151;
+}
+
+.about-bot-section-title-dark {
+  color: #d1d5db;
+}
+
+.about-bot-text {
+  font-size: 14px;
+  line-height: 1.5;
+  margin-bottom: 12px;
+}
+
+.about-bot-text-light {
+  color: #374151;
+}
+
+.about-bot-text-dark {
+  color: #d1d5db;
+}
+
+.about-bot-feature {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+
+.about-bot-feature-light {
+  color: #374151;
+}
+
+.about-bot-feature-dark {
+  color: #d1d5db;
+}
+
+.about-bot-feature-icon {
+  margin-right: 8px;
+  font-size: 16px;
+}
+
+.about-bot-warning {
+  border-radius: 8px;
+  padding: 12px;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.about-bot-warning-light {
+  background-color: #fef2f2;
+  border: 1px solid #fecaca;
+  color: #dc2626;
+}
+
+.about-bot-warning-dark {
+  background-color: #7f1d1d;
+  border: 1px solid #dc2626;
+  color: #fca5a5;
+}
+
+.about-bot-version {
+  font-size: 12px;
+  text-align: center;
+  margin-top: 16px;
+  padding-top: 12px;
+  border-top: 1px solid;
+}
+
+.about-bot-version-light {
+  color: #6b7280;
+  border-top-color: #e5e7eb;
+}
+
+.about-bot-version-dark {
+  color: #9ca3af;
+  border-top-color: #374151;
+}

@@ -1,0 +1,243 @@
+/* Общие стили для компонентов */
+
+/* Анимации */
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.5; }
+}
+
+/* Общие классы для кнопок */
+.btn {
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: opacity 0.2s;
+  width: 100%;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+.btn-primary {
+  background-color: #2481cc;
+  color: white;
+}
+
+.btn-secondary {
+  background-color: #6c757d;
+  color: white;
+}
+
+.btn-info {
+  background-color: #17a2b8;
+  color: white;
+}
+
+.btn-danger {
+  background-color: #dc3545;
+  color: white;
+}
+
+.btn-success {
+  background-color: #28a745;
+  color: white;
+}
+
+.btn-small {
+  padding: 8px 16px;
+  font-size: 14px;
+}
+
+/* Общие классы для карточек */
+.card {
+  padding: 16px;
+  border-radius: 12px;
+  margin: 16px 0;
+  border: 1px solid;
+}
+
+.card-light {
+  background-color: #ffffff;
+  border-color: #e5e7eb;
+  color: #111827;
+}
+
+.card-dark {
+  background-color: #1f2937;
+  border-color: #374151;
+  color: #f9fafb;
+}
+
+/* Общие классы для заголовков */
+.section-title {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.section-title-light {
+  color: #374151;
+}
+
+.section-title-dark {
+  color: #d1d5db;
+}
+
+/* Общие классы для текста */
+.text-light {
+  color: #374151;
+}
+
+.text-dark {
+  color: #d1d5db;
+}
+
+.text-secondary-light {
+  color: #6b7280;
+}
+
+.text-secondary-dark {
+  color: #9ca3af;
+}
+
+/* Общие классы для загрузки */
+.loading-spinner {
+  width: 24px;
+  height: 24px;
+  border: 3px solid #f3f3f3;
+  border-top: 3px solid #3498db;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+.loading-spinner-small {
+  width: 20px;
+  height: 20px;
+  border: 2px solid #f3f3f3;
+  border-top: 2px solid #3498db;
+}
+
+.loading-spinner-large {
+  width: 32px;
+  height: 32px;
+  border: 3px solid #f3f3f3;
+  border-top: 3px solid #3498db;
+}
+
+/* Общие классы для сетки */
+.grid-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+.grid-3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 8px;
+}
+
+/* Общие классы для флекс-контейнеров */
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Общие классы для отступов */
+.gap-4 { gap: 4px; }
+.gap-8 { gap: 8px; }
+.gap-12 { gap: 12px; }
+.gap-16 { gap: 16px; }
+
+.mb-8 { margin-bottom: 8px; }
+.mb-12 { margin-bottom: 12px; }
+.mb-16 { margin-bottom: 16px; }
+
+.mt-8 { margin-top: 8px; }
+.mt-12 { margin-top: 12px; }
+.mt-16 { margin-top: 16px; }
+
+/* Общие классы для цветов */
+.color-success { color: #22c55e; }
+.color-danger { color: #ff4444; }
+.color-warning { color: #ff8800; }
+.color-info { color: #0088ff; }
+.color-neutral { color: #999; }
+
+/* Общие классы для бейджей */
+.badge {
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 500;
+  border: 1px solid;
+}
+
+.badge-success {
+  background-color: #22c55e20;
+  color: #22c55e;
+  border-color: #22c55e40;
+}
+
+.badge-danger {
+  background-color: #ef444420;
+  color: #ef4444;
+  border-color: #ef444440;
+}
+
+.badge-warning {
+  background-color: #f59e0b20;
+  color: #f59e0b;
+  border-color: #f59e0b40;
+}
+
+.badge-info {
+  background-color: #3b82f620;
+  color: #3b82f6;
+  border-color: #3b82f640;
+}
+
+/* Общие классы для предупреждений */
+.warning-box {
+  border-radius: 8px;
+  padding: 12px;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.warning-box-light {
+  background-color: #fef2f2;
+  border: 1px solid #fecaca;
+  color: #dc2626;
+}
+
+.warning-box-dark {
+  background-color: #7f1d1d;
+  border: 1px solid #dc2626;
+  color: #fca5a5;
+}

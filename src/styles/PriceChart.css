@@ -1,0 +1,166 @@
+/* Стили для компонента PriceChart */
+
+.price-chart-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 12px;
+  border: 1px solid;
+  border-radius: 8px;
+}
+
+.price-chart-container-light {
+  background-color: #f9f9f9;
+  border-color: #ddd;
+  color: #000000;
+}
+
+.price-chart-container-dark {
+  background-color: #2b2b2b;
+  border-color: #444444;
+  color: #ffffff;
+}
+
+.price-chart-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.price-chart-title {
+  margin: 0;
+  font-size: 16px;
+}
+
+.price-chart-interval {
+  font-size: 12px;
+  opacity: 0.7;
+}
+
+.price-chart-wrapper {
+  height: 200px;
+  position: relative;
+  width: 100%;
+}
+
+.price-chart-loading-overlay {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  width: 100%;
+  flex-direction: column;
+  gap: 8px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(255, 255, 255, 0.9);
+  z-index: 10;
+}
+
+.price-chart-loading-spinner {
+  width: 20px;
+  height: 20px;
+  border: 2px solid #f3f3f3;
+  border-top: 2px solid #3498db;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+.price-chart-loading-text {
+  font-size: 12px;
+  opacity: 0.7;
+}
+
+/* Стили для Chart.js */
+.price-chart-canvas {
+  width: 100% !important;
+  height: 200px !important;
+}
+
+/* Цвета для свечей */
+.price-chart-candlestick-up {
+  color: #22c55e;
+}
+
+.price-chart-candlestick-down {
+  color: #ff4444;
+}
+
+.price-chart-candlestick-unchanged {
+  color: #999;
+}
+
+/* Сетка и оси */
+.price-chart-grid-light {
+  color: rgba(0,0,0,0.1);
+}
+
+.price-chart-grid-dark {
+  color: rgba(255,255,255,0.1);
+}
+
+.price-chart-tick-light {
+  color: #666;
+}
+
+.price-chart-tick-dark {
+  color: #ccc;
+}
+
+/* Кнопки переключения */
+.price-chart-toggle-buttons {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  margin: 8px 0;
+}
+
+.price-chart-toggle-button {
+  padding: 6px 12px;
+  font-size: 12px;
+  border: 1px solid;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-family: inherit;
+}
+
+.price-chart-toggle-button:hover {
+  opacity: 0.8;
+  transform: translateY(-1px);
+}
+
+.price-chart-toggle-button:active {
+  transform: translateY(0);
+}
+
+.price-chart-toggle-button-candles {
+  background-color: #22c55e;
+  color: #ffffff;
+  border-color: #22c55e;
+}
+
+.price-chart-toggle-button-candles-inactive {
+  background-color: transparent;
+  color: inherit;
+  border-color: inherit;
+}
+
+.price-chart-toggle-button-ma {
+  background-color: #3b82f6;
+  color: #ffffff;
+  border-color: #3b82f6;
+}
+
+.price-chart-toggle-button-ma-inactive {
+  background-color: transparent;
+  color: inherit;
+  border-color: inherit;
+}
+
+/* Анимация спиннера */
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}

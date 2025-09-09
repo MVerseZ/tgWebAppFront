@@ -1,0 +1,18 @@
+/* Главный файл стилей - импорт всех CSS файлов компонентов */
+
+/* Общие стили */
+@import './components.css';
+
+/* Стили компонентов */
+@import './App.css';
+@import './AboutBot.css';
+@import './AlphaFeatures.css';
+@import './PairDetail.css';
+@import './PairSelector.css';
+@import './PriceChart.css';
+@import './ServerAnalysis.css';
+@import './SmartTrading.css';
+@import './Statistics.css';
+@import './StatusIndicator.css';
+@import './TechnicalAnalysis.css';
+@import './TonWallet.css';

@@ -1,0 +1,98 @@
+/* Стили для компонента App */
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  position: relative;
+}
+
+.app-container-telegram {
+  max-width: 100%;
+  margin: 0;
+  padding: 16px;
+  min-height: 100vh;
+}
+
+.app-container-web {
+  max-width: 320px;
+  margin: 40px auto;
+  padding: 2em;
+  min-height: auto;
+}
+
+.app-container-light {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.app-container-dark {
+  background-color: #17212b;
+  color: #ffffff;
+}
+
+.app-user-greeting {
+  font-size: 12px;
+  opacity: 0.7;
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+.app-main-button {
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+.app-main-button:hover {
+  opacity: 0.8;
+}
+
+.app-start-button {
+  background-color: #2481cc;
+  color: white;
+}
+
+.app-start-button-web {
+  background-color: #646cff;
+  color: white;
+}
+
+.app-statistics-button {
+  background-color: #6c757d;
+  color: white;
+}
+
+.app-statistics-button-web {
+  background-color: #f8f9fa;
+  color: #000;
+}
+
+.app-about-button {
+  background-color: #17a2b8;
+  color: white;
+}
+
+.app-about-button-web {
+  background-color: #e9ecef;
+  color: #000;
+}
+
+.app-dev-tools-button {
+  background-color: #dc3545;
+  color: white;
+}
+
+.app-dev-tools-button-web {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+
+.app-current-pair {
+  font-size: 14px;
+  opacity: 0.8;
+  text-align: center;
+}

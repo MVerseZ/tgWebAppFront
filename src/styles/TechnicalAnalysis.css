@@ -1,0 +1,158 @@
+/* Стили для компонента TechnicalAnalysis */
+
+.technical-analysis-container {
+  padding: 12px;
+  border: 1px solid;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.technical-analysis-container-light {
+  background-color: #f9f9f9;
+  border-color: #ddd;
+  color: #000000;
+}
+
+.technical-analysis-container-dark {
+  background-color: #2b2b2b;
+  border-color: #444444;
+  color: #ffffff;
+}
+
+.technical-analysis-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.technical-analysis-title {
+  margin: 0;
+  font-size: 16px;
+}
+
+.technical-analysis-period {
+  font-size: 12px;
+  opacity: 0.7;
+}
+
+.technical-analysis-content {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  font-size: 12px;
+}
+
+.technical-analysis-item {
+  display: flex;
+  align-items: center;
+}
+
+.technical-analysis-label {
+  font-weight: bold;
+  margin-right: 4px;
+}
+
+.technical-analysis-value {
+  font-weight: bold;
+}
+
+.technical-analysis-divider {
+  border-top: 1px solid;
+  padding-top: 4px;
+  margin-top: 4px;
+}
+
+.technical-analysis-divider-light {
+  border-color: #ddd;
+}
+
+.technical-analysis-divider-dark {
+  border-color: #444444;
+}
+
+/* Цвета для различных типов значений */
+.technical-analysis-trend-bullish {
+  color: #22c55e;
+}
+
+.technical-analysis-trend-bearish {
+  color: #ff4444;
+}
+
+.technical-analysis-trend-neutral {
+  color: #999;
+}
+
+.technical-analysis-signal-buy {
+  color: #22c55e;
+}
+
+.technical-analysis-signal-sell {
+  color: #ff4444;
+}
+
+.technical-analysis-signal-overbought {
+  color: #ff8800;
+}
+
+.technical-analysis-signal-oversold {
+  color: #0088ff;
+}
+
+.technical-analysis-signal-hold {
+  color: #999;
+}
+
+.technical-analysis-change-positive {
+  color: #22c55e;
+}
+
+.technical-analysis-change-negative {
+  color: #ff4444;
+}
+
+.technical-analysis-change-neutral {
+  color: #999;
+}
+
+.technical-analysis-volume-high {
+  color: #22c55e;
+}
+
+.technical-analysis-volume-low {
+  color: #ff4444;
+}
+
+.technical-analysis-volume-neutral {
+  color: #999;
+}
+
+.technical-analysis-rsi-overbought {
+  color: #ff8800;
+}
+
+.technical-analysis-rsi-oversold {
+  color: #0088ff;
+}
+
+.technical-analysis-rsi-bullish {
+  color: #22c55e;
+}
+
+.technical-analysis-rsi-bearish {
+  color: #ff4444;
+}
+
+.technical-analysis-macd-positive {
+  color: #22c55e;
+}
+
+.technical-analysis-macd-negative {
+  color: #ff4444;
+}
+
+.technical-analysis-macd-neutral {
+  color: #999;
+}

@@ -1,0 +1,74 @@
+/* Стили для компонента StatusIndicator */
+
+.status-indicator-container {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  display: flex;
+  gap: 6px;
+  padding: 4px;
+  border: 1px solid;
+  border-radius: 12px;
+  z-index: 1000;
+  backdrop-filter: blur(4px);
+}
+
+.status-indicator-container-light {
+  background-color: rgba(255, 255, 255, 0.9);
+  border-color: #e5e7eb;
+}
+
+.status-indicator-container-dark {
+  background-color: rgba(23, 33, 43, 0.9);
+  border-color: #374151;
+}
+
+.status-indicator-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: 1px solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.status-indicator-dot-light {
+  border-color: #ffffff;
+}
+
+.status-indicator-dot-dark {
+  border-color: #17212b;
+}
+
+.status-indicator-inner-dot {
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background-color: white;
+  animation: pulse 2s infinite;
+}
+
+.status-indicator-environment-healthy {
+  background-color: #22c55e;
+}
+
+.status-indicator-environment-unhealthy {
+  background-color: #ef4444;
+}
+
+.status-indicator-environment-unknown {
+  background-color: #6b7280;
+}
+
+.status-indicator-server-healthy {
+  background-color: #22c55e;
+}
+
+.status-indicator-server-unhealthy {
+  background-color: #ef4444;
+}
+
+.status-indicator-server-unknown {
+  background-color: #6b7280;
+}

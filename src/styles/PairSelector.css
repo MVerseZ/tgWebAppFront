@@ -1,0 +1,68 @@
+/* Стили для компонента PairSelector */
+
+.pair-selector-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 100%;
+}
+
+.pair-selector-title {
+  margin: 0;
+  text-align: center;
+}
+
+.pair-selector-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 100%;
+}
+
+.pair-selector-button {
+  color: white;
+  border: none;
+  padding: 12px 16px;
+  border-radius: 8px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: opacity 0.2s;
+  width: 100%;
+}
+
+.pair-selector-button:hover {
+  opacity: 0.8;
+}
+
+.pair-selector-button-telegram {
+  background-color: #2481cc;
+}
+
+.pair-selector-button-web {
+  background-color: #646cff;
+}
+
+.pair-selector-back-button {
+  margin-top: 8px;
+  border: none;
+  padding: 12px 16px;
+  border-radius: 8px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: opacity 0.2s;
+  width: 100%;
+}
+
+.pair-selector-back-button:hover {
+  opacity: 0.8;
+}
+
+.pair-selector-back-button-telegram {
+  background-color: #6c757d;
+  color: white;
+}
+
+.pair-selector-back-button-web {
+  background-color: #f8f9fa;
+  color: #000;
+}

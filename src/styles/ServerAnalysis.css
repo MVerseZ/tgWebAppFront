@@ -1,0 +1,518 @@
+/* Стили для компонента ServerAnalysis */
+
+.server-analysis-container {
+  padding: 16px;
+  border-radius: 12px;
+  margin: 16px 0;
+}
+
+.server-analysis-container-light {
+  background-color: #ffffff;
+  border: 1px solid #e5e7eb;
+  color: #111827;
+}
+
+.server-analysis-container-dark {
+  background-color: #1f2937;
+  border: 1px solid #374151;
+  color: #f9fafb;
+}
+
+.server-analysis-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid;
+}
+
+.server-analysis-header-light {
+  border-bottom-color: #e5e7eb;
+}
+
+.server-analysis-header-dark {
+  border-bottom-color: #374151;
+}
+
+.server-analysis-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.server-analysis-title-light {
+  color: #111827;
+}
+
+.server-analysis-title-dark {
+  color: #f9fafb;
+}
+
+.server-analysis-close-button {
+  padding: 6px 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.server-analysis-close-button-light {
+  background-color: #f3f4f6;
+  color: #111827;
+}
+
+.server-analysis-close-button-dark {
+  background-color: #374151;
+  color: #f9fafb;
+}
+
+.server-analysis-section {
+  margin-bottom: 16px;
+}
+
+.server-analysis-section-title {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.server-analysis-section-title-light {
+  color: #374151;
+}
+
+.server-analysis-section-title-dark {
+  color: #d1d5db;
+}
+
+.server-analysis-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6px 0;
+  font-size: 14px;
+}
+
+.server-analysis-label {
+  font-weight: 500;
+}
+
+.server-analysis-label-light {
+  color: #6b7280;
+}
+
+.server-analysis-label-dark {
+  color: #9ca3af;
+}
+
+.server-analysis-value {
+  font-weight: 500;
+}
+
+.server-analysis-badge {
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 500;
+  border: 1px solid;
+}
+
+.server-analysis-levels-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  margin-top: 4px;
+}
+
+.server-analysis-level {
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 12px;
+}
+
+.server-analysis-level-light {
+  background-color: #f3f4f6;
+  color: #374151;
+}
+
+.server-analysis-level-dark {
+  background-color: #374151;
+  color: #d1d5db;
+}
+
+/* Цвета для различных состояний */
+.server-analysis-direction-up {
+  color: #22c55e;
+}
+
+.server-analysis-direction-down {
+  color: #ef4444;
+}
+
+.server-analysis-direction-sideways {
+  color: #f59e0b;
+}
+
+.server-analysis-direction-neutral {
+  color: #6b7280;
+}
+
+.server-analysis-condition-bullish {
+  color: #22c55e;
+}
+
+.server-analysis-condition-bearish {
+  color: #ef4444;
+}
+
+.server-analysis-condition-volatile {
+  color: #f59e0b;
+}
+
+.server-analysis-condition-stable {
+  color: #3b82f6;
+}
+
+.server-analysis-condition-neutral {
+  color: #6b7280;
+}
+
+.server-analysis-signal-buy {
+  color: #22c55e;
+}
+
+.server-analysis-signal-sell {
+  color: #ef4444;
+}
+
+.server-analysis-signal-hold {
+  color: #f59e0b;
+}
+
+.server-analysis-signal-strong-buy {
+  color: #16a34a;
+}
+
+.server-analysis-signal-strong-sell {
+  color: #dc2626;
+}
+
+.server-analysis-signal-neutral {
+  color: #6b7280;
+}
+
+.server-analysis-trend-strong-bullish {
+  color: #16a34a;
+}
+
+.server-analysis-trend-bullish {
+  color: #22c55e;
+}
+
+.server-analysis-trend-sideways {
+  color: #f59e0b;
+}
+
+.server-analysis-trend-bearish {
+  color: #ef4444;
+}
+
+.server-analysis-trend-strong-bearish {
+  color: #dc2626;
+}
+
+.server-analysis-trend-no-trend {
+  color: #6b7280;
+}
+
+.server-analysis-trend-insufficient-data {
+  color: #9ca3af;
+}
+
+.server-analysis-volume-increasing {
+  color: #22c55e;
+}
+
+.server-analysis-volume-stable {
+  color: #3b82f6;
+}
+
+.server-analysis-volume-decreasing {
+  color: #ef4444;
+}
+
+.server-analysis-volume-insufficient-data {
+  color: #9ca3af;
+}
+
+.server-analysis-momentum-accelerating-up {
+  color: #16a34a;
+}
+
+.server-analysis-momentum-slowing-up {
+  color: #22c55e;
+}
+
+.server-analysis-momentum-neutral {
+  color: #f59e0b;
+}
+
+.server-analysis-momentum-slowing-down {
+  color: #ef4444;
+}
+
+.server-analysis-momentum-accelerating-down {
+  color: #dc2626;
+}
+
+.server-analysis-momentum-insufficient-data {
+  color: #9ca3af;
+}
+
+.server-analysis-quality-excellent {
+  color: #16a34a;
+}
+
+.server-analysis-quality-good {
+  color: #22c55e;
+}
+
+.server-analysis-quality-fair {
+  color: #f59e0b;
+}
+
+.server-analysis-quality-poor {
+  color: #ef4444;
+}
+
+.server-analysis-quality-neutral {
+  color: #6b7280;
+}
+
+.server-analysis-market-bull {
+  color: #16a34a;
+}
+
+.server-analysis-market-bear {
+  color: #dc2626;
+}
+
+.server-analysis-market-volatile {
+  color: #f59e0b;
+}
+
+.server-analysis-market-consolidation {
+  color: #6b7280;
+}
+
+.server-analysis-market-normal {
+  color: #3b82f6;
+}
+
+.server-analysis-market-neutral {
+  color: #6b7280;
+}
+
+/* Бейджи с цветами */
+.server-analysis-badge-direction-up {
+  background-color: #22c55e20;
+  color: #22c55e;
+  border-color: #22c55e40;
+}
+
+.server-analysis-badge-direction-down {
+  background-color: #ef444420;
+  color: #ef4444;
+  border-color: #ef444440;
+}
+
+.server-analysis-badge-direction-sideways {
+  background-color: #f59e0b20;
+  color: #f59e0b;
+  border-color: #f59e0b40;
+}
+
+.server-analysis-badge-condition-bullish {
+  background-color: #22c55e20;
+  color: #22c55e;
+  border-color: #22c55e40;
+}
+
+.server-analysis-badge-condition-bearish {
+  background-color: #ef444420;
+  color: #ef4444;
+  border-color: #ef444440;
+}
+
+.server-analysis-badge-condition-volatile {
+  background-color: #f59e0b20;
+  color: #f59e0b;
+  border-color: #f59e0b40;
+}
+
+.server-analysis-badge-condition-stable {
+  background-color: #3b82f620;
+  color: #3b82f6;
+  border-color: #3b82f640;
+}
+
+.server-analysis-badge-signal-buy {
+  background-color: #22c55e20;
+  color: #22c55e;
+  border-color: #22c55e40;
+}
+
+.server-analysis-badge-signal-sell {
+  background-color: #ef444420;
+  color: #ef4444;
+  border-color: #ef444440;
+}
+
+.server-analysis-badge-signal-hold {
+  background-color: #f59e0b20;
+  color: #f59e0b;
+  border-color: #f59e0b40;
+}
+
+.server-analysis-badge-signal-strong-buy {
+  background-color: #16a34a20;
+  color: #16a34a;
+  border-color: #16a34a40;
+}
+
+.server-analysis-badge-signal-strong-sell {
+  background-color: #dc262620;
+  color: #dc2626;
+  border-color: #dc262640;
+}
+
+.server-analysis-badge-trend-strong-bullish {
+  background-color: #16a34a20;
+  color: #16a34a;
+  border-color: #16a34a40;
+}
+
+.server-analysis-badge-trend-bullish {
+  background-color: #22c55e20;
+  color: #22c55e;
+  border-color: #22c55e40;
+}
+
+.server-analysis-badge-trend-sideways {
+  background-color: #f59e0b20;
+  color: #f59e0b;
+  border-color: #f59e0b40;
+}
+
+.server-analysis-badge-trend-bearish {
+  background-color: #ef444420;
+  color: #ef4444;
+  border-color: #ef444440;
+}
+
+.server-analysis-badge-trend-strong-bearish {
+  background-color: #dc262620;
+  color: #dc2626;
+  border-color: #dc262640;
+}
+
+.server-analysis-badge-volume-increasing {
+  background-color: #22c55e20;
+  color: #22c55e;
+  border-color: #22c55e40;
+}
+
+.server-analysis-badge-volume-stable {
+  background-color: #3b82f620;
+  color: #3b82f6;
+  border-color: #3b82f640;
+}
+
+.server-analysis-badge-volume-decreasing {
+  background-color: #ef444420;
+  color: #ef4444;
+  border-color: #ef444440;
+}
+
+.server-analysis-badge-momentum-accelerating-up {
+  background-color: #16a34a20;
+  color: #16a34a;
+  border-color: #16a34a40;
+}
+
+.server-analysis-badge-momentum-slowing-up {
+  background-color: #22c55e20;
+  color: #22c55e;
+  border-color: #22c55e40;
+}
+
+.server-analysis-badge-momentum-neutral {
+  background-color: #f59e0b20;
+  color: #f59e0b;
+  border-color: #f59e0b40;
+}
+
+.server-analysis-badge-momentum-slowing-down {
+  background-color: #ef444420;
+  color: #ef4444;
+  border-color: #ef444440;
+}
+
+.server-analysis-badge-momentum-accelerating-down {
+  background-color: #dc262620;
+  color: #dc2626;
+  border-color: #dc262640;
+}
+
+.server-analysis-badge-quality-excellent {
+  background-color: #16a34a20;
+  color: #16a34a;
+  border-color: #16a34a40;
+}
+
+.server-analysis-badge-quality-good {
+  background-color: #22c55e20;
+  color: #22c55e;
+  border-color: #22c55e40;
+}
+
+.server-analysis-badge-quality-fair {
+  background-color: #f59e0b20;
+  color: #f59e0b;
+  border-color: #f59e0b40;
+}
+
+.server-analysis-badge-quality-poor {
+  background-color: #ef444420;
+  color: #ef4444;
+  border-color: #ef444440;
+}
+
+.server-analysis-badge-market-bull {
+  background-color: #16a34a20;
+  color: #16a34a;
+  border-color: #16a34a40;
+}
+
+.server-analysis-badge-market-bear {
+  background-color: #dc262620;
+  color: #dc2626;
+  border-color: #dc262640;
+}
+
+.server-analysis-badge-market-volatile {
+  background-color: #f59e0b20;
+  color: #f59e0b;
+  border-color: #f59e0b40;
+}
+
+.server-analysis-badge-market-consolidation {
+  background-color: #6b728020;
+  color: #6b7280;
+  border-color: #6b728040;
+}
+
+.server-analysis-badge-market-normal {
+  background-color: #3b82f620;
+  color: #3b82f6;
+  border-color: #3b82f640;
+}
